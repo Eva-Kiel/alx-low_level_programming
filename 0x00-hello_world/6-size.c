@@ -1,22 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - Pint the sizes of var types
+ * main - print string in put function
  *
- * Retun: 0 (Succeed)
+ * Descripition: use main function
+ * this program prints "the size of various types on the computer it is complied and run on
+ * Return: 0
  */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float e;
+	char c;
+	int i;
+	long int li;
+	long long int lli;
+	float f;
 
-	printf("Size of a char: %d byte(s)\n", sizeof(a));
-	printf("Size of an int: %d byte(s)\n", sizeof(b));
-	printf("Size of a long int: %d byte(s)\n", sizeof(c));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(d));
-	printf("Size of a float: %d byte(s)\n", sizeof(e));
+	printf("Size of a char: %1d byte(s)\n", sizeof(c));
+	printf("Size of an int: %1d byte(s)\n", sizeof(i));
+	printf("Size of a long int: %1d byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %1d byte(s)\n", sizeof(lli));
+	printf("Size of a float: %1d byte(s)\n", sizeof(f));
 	return (0);
 }
