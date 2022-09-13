@@ -4,7 +4,7 @@
  * main - Print alphabet in lowercase then new line
  *
  * Description: Use main function
- * Return : 0 (Always succesful)
+ * Return : Succesful
  */
 int main(void)
 {
