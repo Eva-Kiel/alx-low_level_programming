@@ -1,11 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
+#include "main.h"
 /**
- * print_alphabet - funtion to print abc
+ * print_alphabet - function to print alphabet
  *
- * Return: always successful
+ * Return: 0 
  */
 void print_alphabet(void)
 {
