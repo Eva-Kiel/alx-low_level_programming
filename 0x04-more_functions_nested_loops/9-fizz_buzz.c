@@ -4,8 +4,8 @@
 /**
  * main -prints the numbers from 1 - 100, then a new line
  * but for multiples of three prints Fizz instead of the number
- * and for the multiples of five prints Buzz
- * Return: 0
+ *
+ * Return: returns o
  */
 
 int main(void)
