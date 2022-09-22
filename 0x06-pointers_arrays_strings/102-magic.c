@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Descrpition: adds a line to the code, uses printf
- * Return: 0
+ * main - prints a[2]  
+ * 
+ * Return: Always 0
  */
 
 int main(void)
