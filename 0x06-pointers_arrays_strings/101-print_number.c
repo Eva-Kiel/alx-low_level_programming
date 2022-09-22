@@ -4,8 +4,9 @@
  * print_number: prints integer with putchar
  * @n: integer to print
  *
- * Return: nothing
+ * Return: success
  */
+
 void print_number(int n)
 {
 	unsigned int x;
