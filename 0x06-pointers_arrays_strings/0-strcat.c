@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates the string pointed to y @src to
- * the end of the string pointed to bt @dest
+ * _strcat - concatenates the string pointed to by @src to
+ * th end of the string pointed to by @dest
  * @dest: string to be appended
- * @src: string to be concatenated on
+ * @src: string to be concatenated  upon
  *
  * Return: returns pointer to @dest
  */
@@ -18,7 +18,7 @@ char *_strcat(char *dest, char *src)
 		dest_len++;
 
 	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
+		dest[dest_len++] = scr[index];
 
 	return (dest);
 }
