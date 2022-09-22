@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - entry point
+ * Descrpition: adds a line to the code, uses printf
+ * Return: 0
+ */
+
 int main(void)
 {
   int n;
