@@ -16,10 +16,10 @@ int is_prime_number(int n)
 }
 
 /**
- * actual_prime - calculates if a num is prime
+ * actual_prime - calculates if a number is prime
  * @n: number
  * @i: counter
- * Return 1 if n is a prime number, 0 if not
+ * Return: 1 if n is a prime number, 0 if not
  */
 
 int actual_prime(int n, int i)
